@@ -76,7 +76,7 @@ nav {
 .logo {
     margin: 0 auto;
     height: 50px;
-    padding-top: 25px;
+    padding-top: 5px;
     text-align: center;
     background: #4aaaa5;
     color: #fff;
@@ -97,9 +97,9 @@ nav {
     background: darkgray;
     color: #fff;
     text-align: center;
-    height: 100px;
-    padding-top: 30px;
-    margin-top: 20px;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 19px;
     font-size: 22px;
     border-top: solid 5px #4aaaa5;
 }
@@ -164,6 +164,8 @@ nav {
     width: 100%;
     height: 100%;
     margin-left: 10px;
+    margin-top: 30px;
+    padding-bottom: 132px;
 }
 .fillitem {
     width: 50%;
@@ -175,6 +177,7 @@ nav {
 @media only screen and (min-width: 768px){
     .top {
         height: 100px;
+        width: 100%;
     }
     .nav {
         float: right;
@@ -185,22 +188,30 @@ nav {
         margin: 0 auto;
         width: 80px;
         font-size: 20px;
-
     }
     .logo {
         float: left;
-        padding: 10px;
+        font-size: 32pt;
+        height: 80px;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
         background: #4aaaa5
     }
     .wrapper {
         height: 100%;
         margin-top: 20px;
+        padding-bottom: 20px;
     }
     .myimg {
         width: 200px;
         height: 200px;
         float: left;
         padding-right: 20px;
+    }
+    .bottom {
+        position: fixed;
+        bottom: 0;
     }
     /*=========Portfolio MD===========*/
     .port {
@@ -242,10 +253,14 @@ nav {
     }
     .logo {
         height: 100px;
+        
         background: #4aaaa5;
     }
     .nav li{
         cursor: pointer;
+    }
+    .nav a:hover {
+        color: #4aaaa5;
     }
     .wrapper {
         width: 980px;
@@ -257,5 +272,8 @@ nav {
         width: 100%;
         height: 100%;
         margin: 0 auto;
+    }
+    .over {
+        width: 350px;
     }
 }
