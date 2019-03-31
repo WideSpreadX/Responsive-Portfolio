@@ -52,6 +52,7 @@ body {
 }
 .top {
     width: 100%;
+    min-width: 375px;
     height: 120px;
     background: white;
 }
@@ -87,6 +88,7 @@ nav {
     margin: 0 auto;
     padding: 10px;
     width: 94%;
+    min-width: 375px;
 }
 .myimg {
     width: 100%;
@@ -94,6 +96,7 @@ nav {
 }
 .bottom {
     width: 100%;
+    min-width: 375px;
     background: darkgray;
     color: #fff;
     text-align: center;
@@ -102,6 +105,7 @@ nav {
     margin-top: 19px;
     font-size: 22px;
     border-top: solid 5px #4aaaa5;
+
 }
 .bottom a {
     text-decoration: none;
@@ -117,12 +121,13 @@ nav {
 }
 /*========Portfolio Images========*/
 .pic {
-    width: 100%;
+    width: 90%;
     height: 350px;
     display: block;
     margin: 0 auto;
     padding-bottom: 20px;
     background-size: 350px 350px;
+    min-width: 350px;
     background-repeat: no-repeat;
 }
 .photop {
@@ -145,7 +150,7 @@ nav {
 }
 /*=======Portfolio========*/
 .port {
-    width: 100%;
+    width: 350px;
     height: 100%;
     margin: 0 auto;
 }
@@ -182,6 +187,7 @@ nav {
     .nav {
         float: right;
         padding: 30px 10px 30px;
+        min-width: 300px;
     }
     .nav li {
         float: left;
@@ -192,7 +198,7 @@ nav {
     .logo {
         float: left;
         font-size: 32pt;
-        height: 80px;
+        height: 70px;
         padding-top: 30px;
         padding-left: 30px;
         padding-right: 30px;
@@ -209,10 +215,7 @@ nav {
         float: left;
         padding-right: 20px;
     }
-    .bottom {
-        position: fixed;
-        bottom: 0;
-    }
+
     /*=========Portfolio MD===========*/
     .port {
         margin: 0 auto;
@@ -227,7 +230,7 @@ nav {
         margin-left: 20px;
     }
     .over {
-        width: 42.5%;
+        width: 350px;
     }
     /*=========Contact MD============*/
     .fillout {
@@ -268,12 +271,19 @@ nav {
         
     }
     /*===========Portfolio===========*/
+    .wrapper {
+        height: 100%;
+    }
+    .portwrapper {
+        height: 1150px;
+    }
     .port {
         width: 100%;
-        height: 100%;
+        height: 1100px;
         margin: 0 auto;
     }
     .over {
         width: 350px;
     }
+
 }
